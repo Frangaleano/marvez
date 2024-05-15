@@ -553,6 +553,7 @@ body {
     gap: 8px;
     margin-top: 10px;
     width: 58px;
+    align-items: center;
   }
 
   .iconoFtHome {
