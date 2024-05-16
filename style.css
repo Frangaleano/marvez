@@ -29,12 +29,17 @@ body {
   justify-content: center;
   align-items: center;
   z-index: 9999;
-  transition: opacity 1s ease-out;
+  transition: opacity 1s ease-in-out;
 }
 
 .logo-container {
   position: relative;
   animation: slideIn 1s ease-out forwards, slideOut 1s ease-out 2s forwards;
+}
+
+.logo-container img {
+  width: 200px;
+  height: 200px;
 }
 
 @keyframes slideIn {
@@ -51,7 +56,7 @@ body {
       transform: translateY(0);
   }
   to {
-      transform: translateY(-150%);
+      transform: translateY(-250%);
   }
 }
 
